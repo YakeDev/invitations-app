@@ -1,0 +1,114 @@
+/* import police script */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* Reset de base */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background: #f5f5f5;
+	color: #333;
+}
+
+/* Invitation en paysage */
+.invitation-landscape {
+	width: 800px;
+	aspect-ratio: 16 / 9;
+	background: #fffefa;
+	border: 1px solid #e0d4c3;
+	border-radius: 15px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Georgia', serif;
+	color: #4a4a4a;
+}
+
+/* Nom de l’invité·e */
+.invitee-name {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	text-align: right;
+	color: #53331a;
+}
+
+/* Texte d’intro */
+.invitation-text {
+	text-align: center;
+	line-height: 1.4;
+	font-size: 1rem;
+}
+
+/* Programme centré */
+.programme {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Titre Programme centré (inchangé) */
+.programme h2 {
+	font-size: 1.4rem;
+	color: #53331a;
+	position: relative;
+	margin-bottom: 0.75rem;
+}
+.programme h2::after {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #53331a;
+	margin: 0.25rem auto 0;
+}
+
+/* Liste centrée */
+.programme ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Items de la liste centrés */
+.programme li {
+	margin-bottom: 0.5rem;
+}
+
+/* Sous‐listes centrées également */
+.programme li ul {
+	margin-top: 0.5rem;
+	padding: 0;
+	list-style: none;
+}
+.programme li ul li {
+	margin-bottom: 0.5rem;
+	text-align: center;
+	list-style: disc inside;
+}
+
+/* Boutons hors capture */
+.actions {
+	text-align: center;
+	margin-top: 1rem;
+}
+.actions button {
+	margin: 0 0.5rem;
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	color: #fff;
+	background: #e85a4f;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+.actions button:hover {
+	background: #d64b3e;
+}

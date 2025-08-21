@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Invitation Mariage</title>
+		<link rel="stylesheet" href="/src/style.css" />
+	</head>
+	<body>
+		<!-- Conteneur paysage capturé -->
+		<div id="invitation-container" class="invitation-landscape">
+			<!-- Nom dynamique de l’invité·e -->
+			<h1 id="name" class="invitee-name">--NOM INVITÉ--</h1>
+
+			<!-- Texte d’intro statique -->
+			<div class="invitation-text">
+				<p><strong>Colassins Kazadi &amp; Mélanie Sheta</strong></p>
+				<p>
+					Ont le réel plaisir de vous convier à partager un moment d'amour et de
+					célébration à l'occasion de leur union conjugale 💍💞 suivant le
+					programme ci-après :
+				</p>
+			</div>
+
+			<!-- Programme détaillé -->
+			<div class="programme">
+				<h2>Programme</h2>
+				<ul>
+					<li>
+						<strong>Vendredi 25 Avril 2025</strong><br />
+						11h00 : Mariage civil à la mairie de Lubumbashi.
+					</li>
+					<li>
+						<strong>Samedi 26 Avril 2025</strong>
+						<ul>
+							<li>
+								13h00 : Bénédiction Nuptiale dans l'Église Évangile éternel
+								(avenue de plaine n°330, Q/Bel Air, C/Kampemba). Réf. Arrêt la
+								grâce.
+							</li>
+							<li>
+								19h00 : Soirée dansante, salle “Ascension Saint Paul” (route
+								Kasapa, arrêt Don Bosco). Réf. En face du bâtiment administratif
+								de l’UNILU.
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<p class="note">NB : cadeau en espèces, s'il vous plaît.</p>
+			</div>
+		</div>
+
+		<!-- Boutons hors du conteneur pour ne pas les capturer -->
+		<div class="actions">
+			<button id="download-pdf-btn">Télécharger PDF</button>
+			<button id="download-image-btn">Télécharger PNG</button>
+		</div>
+
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
